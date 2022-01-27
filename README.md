@@ -5,9 +5,9 @@
 
 ### Set up your Github Repository
 
-- Create a new repository called `Regex-Recursion`
-- Add a **README** file to add your changes for each day.
+- Create a new repository called `Regex-Recursion` from this template
 - Clone this repo to your local machine.
+- install package dependencies run `npm install`
 - Checkout a new branch called `regex` for Regex task.
 - Checkout a new branch called `recursion` for Recursion task.
 - Open it in VS code.
