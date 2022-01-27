@@ -71,18 +71,18 @@ describe("Test pow", () => {
 });
 
 describe("Test fibonacci", () => {
-    test("It should implement fibonacci series logic", () => {
-        expect(fibonacci(0)).toStrictEqual(0);
-        expect(pow(1)).toStrictEqual(1);
-        expect(pow(2)).toStrictEqual(1);
-        expect(pow(3)).toStrictEqual(2);
-        expect(pow(4)).toStrictEqual(3);
-    })
+  test("It should implement fibonacci series logic", () => {
+    expect(fibonacci(0)).toStrictEqual(0);
+    expect(fibonacci(1)).toStrictEqual(1);
+    expect(fibonacci(2)).toStrictEqual(1);
+    expect(fibonacci(3)).toStrictEqual(2);
+    expect(fibonacci(7)).toStrictEqual(13);
+  });
 });
 
 describe("Test permutations", () => {
     test("It should return a list of possible combinations", () => {
         expect(permutations([1,2,3],3)).toStrictEqual(["123", "132", "213", "231", "312", "321"]);
-        expect(permutations[1,2,3],0).toStrictEqual([]);
+        expect(permutations([1,2,3],0).toStrictEqual([]));
     })
 });
